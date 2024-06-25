@@ -1,0 +1,274 @@
+*{
+    margin:0px;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+border:1.5px solid white;
+}
+.add-first{
+    color:#cccccc;
+    font-size:.85rem;
+    margin-left:15px;
+}
+.add-second{
+    color:#ffffff;
+    font-size:1rem;
+   margin-left:4px;
+}
+.add-icon{
+    display:flex;
+    align-items:center
+}
+.nav-search{
+display:flex;
+background-color:pink;
+width:620px;
+height:40px;
+border-radius:4px;
+justify-content: space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    color:#0f1111;
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size:1.2rem;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-size:1.2rem;
+    background-color: #febd68;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+span{
+    font-size:0.8rem;
+}
+.nav-second{
+    font-size:1rem;
+    font-weight:700;
+}
+.last-box{
+    width:50px;
+    height:40px;
+    display:flex;
+}
+.image-cart i {
+    font-size:38px;
+    
+}
+.image-cart{
+    font-size:1rem;
+    font-weight:700;
+}
+.panel{
+    height:35px;
+    color:white;
+    background-color: #222f3d;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.panel-all i{
+   font-size:20px;
+   margin-right:5px;
+}
+.panel-all {
+    display:flex;
+   
+}
+.panel-ops p{
+    display:inline-block;
+    margin-left:14px;
+    font-weight:700px;
+}
+.panel-ops{
+   width:90%;
+   font-size:0.89rem;
+   margin:25px;
+}
+
+.hero-section{
+    background-image: url("https://m.media-amazon.com/images/I/71YTsbTxBsL._SX3000_.jpg");
+    height:400px;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color:white;
+    color:black;
+    display:flex;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    font-size:14px;
+    width:90%;
+    margin-bottom:50px;
+}
+.hero-msg a{
+    color:#007185;
+    text-decoration: none;
+}
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+    /* border:2px solid black; */
+    height:390px;
+    width:23%;
+    margin:20px;
+    padding:20px 0px 15px;
+    
+}
+.box1-image{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg");
+    background-size: cover;
+    height:300px;
+    
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.content{ 
+   margin-left:10px;
+   margin-right:10px;
+}
+.content a{
+    color:#007185;
+    text-decoration: none;
+}
+.box2-image{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_2X_Furnitrure_v2._SY608_CB577544739_.jpg");
+    background-size: cover;
+    height:300px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.box3-image{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1546843_2940864_758x608_2X_en_US._SY608_CB613273467_.jpg");
+    background-size: cover;
+    height:300px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.box4-image{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg");
+    background-size: cover;
+    height:300px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.box5-image{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img18/Lawn_Garden/Ud/2024/PCCC/01-748_X_608-min._SY608_CB556163815_.jpg");
+    background-size: cover;
+    height:300px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.box6-image{
+    background-image: url("https://m.media-amazon.com/images/I/51OEQ4k4M5L._AC_SY400_.jpg");
+    background-size: cover;
+    height:300px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.box7-image{
+    background-image: url("https://m.media-amazon.com/images/I/81Dvi9zuV-L._AC_SY400_.jpg");
+    background-size: cover;
+    height:300px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.box8-image{
+    background-image: url("https://m.media-amazon.com/images/I/81mrMggUQnS._AC_SY400_.jpg");
+    background-size: cover;
+    height:300px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+footer{
+    margin-top:15px;
+}
+.foot-panel-1{
+    height:50px;
+    background-color: #37475a;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel-2{
+    background-color: #222f3d;
+    display:flex;
+    justify-content: space-evenly;
+    color:white;
+    height:300px;
+}
+ul a{
+    display:block;
+    font-size:14px;
+    color:#dddddd;
+    margin-top:15px;
+}
+ul p{
+    margin-top:10px;
+}
+a:hover{
+    text-decoration:underline;
+}
+.foot-panel-3{
+    background-color: #222f3d;
+    border-top:0.5px solid white;
+    height:70px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+    background-image: url("https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg");
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+
